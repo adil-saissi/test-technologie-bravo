@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>SAISSI's Quiz</title>
+</head>
+<body>
+    
+    <div class="intro py-3 bg-white text-center">
+        <div class = "container">
+            <h2 class="text-dark display-4 my-4">Test technologie BRAVO :</h2>
+        </div>
+        <div class="result py-4 d-none bg-light text-center">
+            <div class="container lead">
+                <p>You get <span class="text-secondary display-4 p-3" >0</span>Good Job</p>
+            </div>
+        </div>
+    </div>
+    <div class="quiz py-4 bg-secondary">
+        <div class="container">
+            <h2 class="my-5 text-white " >On with the questions...</h2>   
+            <!-- first question -->
+            <form class="quiz-form text-light">
+                <div class="my-5">
+            <p class="lead font-weight-normal">1.L'alternateur du BRAVO charge: </p>
+            <div class="form-check my-2 text-white-50">
+                       <input type="radio" name="q1" value="A"  >
+               <label class="form-check-label">le regulateur de tension</label>
+                   </div>
+            <div class="form-check my-2 text-white-50">
+             <input type="radio" name="q1" value="B"  >
+            <label class="form-check-label">l'ampermetre</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="C"  >
+                       <label class="form-check-label">la battrie, moteur tournant</label>
+                               </div>
+                               <div class="form-check my-2 text-white-50">
+                                <input type="radio" name="q1" value="D"  >
+                               <label class="form-check-label">le relais de surtension </label>
+                                       </div>
+                     </div>
+                     <!-- second question -->
+             <div class="my-5">
+                <p class="lead font-weight-normal">2.l'aile est renforcé transversalement par :</p>
+              <div class="form-check my-2 text-white-50">
+                      <input type="radio" name="q2" value="A" >
+                       <label class="form-check-label">Des longerons et faux longerons</label>
+                       </div>
+                       <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="B"   >
+                    <label class="form-check-label">cinq nervures</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q2" value="C"   >
+                                  <label class="form-check-label">des cadres en O et en U</label>
+                                      </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q2" value="D"   >
+                                  <label class="form-check-label">A + C</label>
+                                      </div>
+                         </div>
+                         <!-- third question  -->
+                       <div class="my-5">
+                            <p class="lead font-weight-normal">3.La pompe a vide assure le fonctionnement de :</p>
+                          <div class="form-check my-2 text-white-50">
+                               <input type="radio" name="q3" value="A"  >
+                             <label class="form-check-label">l'horizon artificiel , conservateur de cap et l'indicateur de depression </label>
+                          </div>
+                          <div class="form-check my-2 text-white-50">
+                           <input type="radio" name="q3" value="B"   >
+                           <label class="form-check-label">l'altimetre</label>
+                         </div>
+                         <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q3" value="C"   >
+                            <label class="form-check-label">du conservateur du cap</label>
+                          </div>
+                          <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q3" value="D"   >
+                            <label class="form-check-label">l'altimetre</label>
+                          </div>
+                          </div>
+                         <div class="my-5">
+                         <p class="lead font-weight-normal">4.le badin de l'avion BRAVO utilise : </p>
+                       <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q4" value="A" >
+                   <label class="form-check-label">la pression totale</label>
+               </div>
+               <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="B"   >
+                <label class="form-check-label">la pression statique</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="C"   >
+                    <label class="form-check-label">la pression dynamique</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="D"   >
+                        <label class="form-check-label">la pression atmosferique</label>
+                        </div>
+                 </div>
+                 <div class="my-5">
+                    <p class="lead font-weight-normal">5.les palonniers agissent sur : </p>
+                  <div class="form-check my-2 text-white-50">
+                       <input type="radio" name="q5" value="A" >
+              <label class="form-check-label">les volets</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q5" value="B"   >
+           <label class="form-check-label">les ailerons et gouvernes de profondeur</label>
+           </div>
+           <div class="form-check my-2 text-white-50">
+               <input type="radio" name="q5" value="C"   >
+               <label class="form-check-label">les gouvernes de direction</label>
+               </div>
+               <div class="form-check my-2 text-white-50">
+                   <input type="radio" name="q5" value="D"   >
+                   <label class="form-check-label">le compensateur</label>
+                   </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal">6.le frein parking commande : </p>
+              <div class="form-check my-2 text-white-50">
+                   <input type="radio" name="q6" value="A" >
+          <label class="form-check-label">la valve de blocage</label>
+      </div>
+      <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q6" value="B"   >
+       <label class="form-check-label">les blocs de frein</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q6" value="C"   >
+           <label class="form-check-label">les transmetteurs</label>
+           </div>
+           <div class="form-check my-2 text-white-50">
+               <input type="radio" name="q6" value="D"   >
+               <label class="form-check-label">les disque de frein</label>
+               </div>
+        </div>
+        <div class="my-5">
+            <p class="lead font-weight-normal">7.en vol normale l'essence est puisée dans  : </p>
+          <div class="form-check my-2 text-white-50">
+               <input type="radio" name="q7" value="A" >
+      <label class="form-check-label">le reservior droit</label>
+  </div>
+  <div class="form-check my-2 text-white-50">
+   <input type="radio" name="q7" value="B"   >
+   <label class="form-check-label">les deux reservoir, un independant a l'autre</label>
+   </div>
+   <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q7" value="C"   >
+       <label class="form-check-label">le reservoir gauche</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q7" value="D"   >
+           <label class="form-check-label">un reservoir pendulaire</label>
+           </div>
+    </div>
+    <div class="my-5">
+        <p class="lead font-weight-normal">8.la puissance moteur maximum: </p>
+      <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q8" value="A" >
+  <label class="form-check-label">180 CV</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q8" value="B"   >
+<label class="form-check-label">360 KW</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q8" value="C"   >
+   <label class="form-check-label">186 CV</label>
+   </div>
+   <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q8" value="D"   >
+       <label class="form-check-label">180 KW</label>
+       </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">9.la pression huile normale est : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q9" value="A" >
+<label class="form-check-label">25 PSI</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q9" value="B"   >
+<label class="form-check-label">60 a 90 PSI</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q9" value="C"   >
+<label class="form-check-label">100 PSI</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q9" value="D"   >
+   <label class="form-check-label">57 PSI</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">10.la vitesse normale du BRAVO: </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q10" value="A" >
+<label class="form-check-label">60 a 130 KTS</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q10" value="B"   >
+<label class="form-check-label">130 a 175 KTS</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q10" value="C"   >
+<label class="form-check-label">175 KTS</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q10" value="D"   >
+   <label class="form-check-label">50 a 75 KTS</label>
+   </div>
+</div><div class="my-5">
+    <p class="lead font-weight-normal">11.le barcage de volet sortie au decollage : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q11" value="A" >
+<label class="form-check-label">15°</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q11" value="B"   >
+<label class="form-check-label">41°</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q11" value="C"   >
+<label class="form-check-label">84°</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q11" value="D"   >
+   <label class="form-check-label">32°</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">12.le compensateur aerodynamique est situe : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q12" value="A" >
+<label class="form-check-label">au bord de fuite des ailerons</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q12" value="B"   >
+<label class="form-check-label">au bord de fuite du volet</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q12" value="C"   >
+<label class="form-check-label">au bord de fuite du demi - plan droit de la gouverne de profondeur</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q12" value="D"   >
+   <label class="form-check-label">sur le plan fixe verticale</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">13.le regime normale pour fair les essais pendant la mise en route : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q13" value="A" >
+<label class="form-check-label">2250 T/MN a 2700 T/MN</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q13" value="B"   >
+<label class="form-check-label">2000 T/MN</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q13" value="C"   >
+<label class="form-check-label">2000 T/MN a 2250 T/MN</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q13" value="D"   >
+   <label class="form-check-label">1200 T/MN a 2000 T/MN</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">13.le regime est maxi, sans toucher a la manette de gaz on diminue le nombre de tour par : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q14" value="A" >
+<label class="form-check-label">la manette melange</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q14" value="B"   >
+<label class="form-check-label">la manette helice </label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q14" value="C"   >
+<label class="form-check-label">la commande du volet</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q14" value="D"   >
+   <label class="form-check-label">la commande du compensateur </label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">15.le premier parametre verifier lors de decommarage : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q15" value="A" >
+<label class="form-check-label">la depression </label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q15" value="B"   >
+<label class="form-check-label">l'ampermetre</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q15" value="C"   >
+<label class="form-check-label">la pression d'huile</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q15" value="D"   >
+   <label class="form-check-label">la temperature cylindre</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">16.les manches commandent: </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q16" value="A" >
+<label class="form-check-label">le compensateur</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q16" value="B"   >
+<label class="form-check-label">direction,profondeur</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q16" value="C"   >
+<label class="form-check-label">les gauchissements et profonddeur</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q16" value="D"   >
+   <label class="form-check-label">les volets</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">17.le debitmetre indique  : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q17" value="A" >
+<label class="form-check-label">le regime moteur</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q17" value="B"   >
+<label class="form-check-label">la quantite du carburant consomme en litre par heur</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q17" value="C"   >
+<label class="form-check-label">la pression atmospherique</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q17" value="D"   >
+   <label class="form-check-label">la vitesse de l'avion</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">18.la touche rouge com 2 permet : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q18" value="A" >
+<label class="form-check-label">emission sur VHF 1 </label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q18" value="B"   >
+<label class="form-check-label">la reception sur VHF 2 </label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q18" value="C"   >
+<label class="form-check-label">emission reception sur VHF com 2</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q18" value="D"   >
+   <label class="form-check-label">la reception sur VHF 1</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">19.l'empannage du BRAVO se compose de  : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q19" value="A" >
+<label class="form-check-label">olan fixe horizontal supportant la gouverne se profondeur</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q19" value="B"   >
+<label class="form-check-label">plan fixe horizontal et vertical supportant les ailerons</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q19" value="C"   >
+<label class="form-check-label">plan fixe vertical supportant la gouverne de  direction</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q19" value="D"   >
+   <label class="form-check-label">A + C</label>
+   </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">20.la lampe alternateur s'allume en vol  : </p>
+  <div class="form-check my-2 text-white-50">
+       <input type="radio" name="q20" value="A" >
+<label class="form-check-label">on coupe le moteur et faire un atterrissage force </label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q20" value="B"   >
+<label class="form-check-label">l'indicateur de virage H/S</label>
+</div>
+<div class="form-check my-2 text-white-50">
+<input type="radio" name="q20" value="C"   >
+<label class="form-check-label">on a 30 de vol en coupant les moyens non necessaires</label>
+</div>
+<div class="form-check my-2 text-white-50">
+   <input type="radio" name="q20" value="D"   >
+   <label class="form-check-label">on peut rester en vol avec tous les moyens branches </label>
+   </div>
+</div>
+            <div class="text-center">
+                <input type="submit" class="btn btn-info" >
+            </div>     
+                            
+            </form>
+            
+        </div>
+    </div>
+    <script src="lilquiz.js"></script>
+</body>
+</html>
